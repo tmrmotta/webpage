@@ -29,7 +29,7 @@ resource "aws_s3_bucket" "bucket" {
     }
   }
 
-##
+  ##
 
   versioning {
     enabled    = true
@@ -46,19 +46,19 @@ resource "aws_s3_object" "index" {
   bucket = aws_s3_bucket.bucket.bucket
   key    = "index.html"
   source = "./html/index.html"
-  etag     = filemd5("./html/index.html")
+  etag   = filemd5("./html/index.html")
 }
 
 resource "aws_s3_object" "style" {
   bucket = aws_s3_bucket.bucket.bucket
   key    = "style.css"
   source = "./html/style.css"
-  etag     = filemd5("./html/style.css")
+  etag   = filemd5("./html/style.css")
 }
 
 resource "aws_s3_object" "error" {
   bucket = aws_s3_bucket.bucket.bucket
   key    = "error.html"
   source = "./html/error.html"
-  etag     = filemd5("./html/error.html")
+  etag   = filemd5("./html/error.html")
 }
