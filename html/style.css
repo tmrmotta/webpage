@@ -25,10 +25,11 @@ body{
     font-weight: bold;
     letter-spacing: 7px;
     display: inline;
+    font-size: 20px;
 }
 
 .card-slogan{
-    font-size: 12px;
+    font-size: 17px;
     letter-spacing: 3px;
     display: inline;
 }
