@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;   
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.card-principal{
+    margin: 10% auto;
+}
+
+.card-name{
+    font-weight: bold;
+    letter-spacing: 7px;
+    display: inline;
+    
+}
+
+.card-slogan{
+    letter-spacing: 3px;
+    display: inline;
+}
+
+ul li{
+    font-size: 25px;
+    margin: 5px;
+    display: inline-block;
+}
